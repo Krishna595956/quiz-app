@@ -8,7 +8,7 @@
                 "public static int main(String[] args)",
                 "public static void main()"
             ],
-            "correct": 0
+            "correct": "public static void main(String[] args)"
         },
         {
             "question": "Which of these is not a primitive data type in Java?",
@@ -18,7 +18,7 @@
                 "double",
                 "boolean"
             ],
-            "correct": 1
+            "correct": "String"
         },
         {
             "question": "What is the default value of an uninitialized int variable in Java?",
@@ -28,7 +28,7 @@
                 "undefined",
                 "1"
             ],
-            "correct": 0
+            "correct": "0"
         },
         {
             "question": "Which keyword is used to inherit a class in Java?",
@@ -38,7 +38,7 @@
                 "inherits",
                 "super"
             ],
-            "correct": 0
+            "correct": "extends"
         },
         {
             "question": "What is the size of a long variable in Java?",
@@ -48,7 +48,7 @@
                 "2 bytes",
                 "1 byte"
             ],
-            "correct": 1
+            "correct": "8 bytes"
         },
         {
             "question": "Which of these is not a valid access modifier in Java?",
@@ -58,7 +58,7 @@
                 "friendly",
                 "protected"
             ],
-            "correct": 2
+            "correct": "friendly"
         },
         {
             "question": "What is the output of System.out.println(5 + 2 + '3')?",
@@ -68,7 +68,7 @@
                 "53",
                 "Error"
             ],
-            "correct": 1
+            "correct": "7"
         },
         {
             "question": "Which interface is used to make a class thread-safe in Java?",
@@ -78,7 +78,7 @@
                 "Serializable",
                 "Cloneable"
             ],
-            "correct": 0
+            "correct": "Runnable"
         },
         {
             "question": "What is the purpose of the 'final' keyword in Java?",
@@ -88,7 +88,7 @@
                 "To prevent method overriding",
                 "All of the above"
             ],
-            "correct": 3
+            "correct": "All of the above"
         },
         {
             "question": "Which of these is not a valid way to create a thread in Java?",
@@ -98,7 +98,7 @@
                 "Using new Thread()",
                 "Using Thread.create()"
             ],
-            "correct": 3
+            "correct": "Using Thread.create()"
         }
     ],
     "c": [
@@ -110,7 +110,7 @@
                 "Depends on the compiler",
                 "8 bytes"
             ],
-            "correct": 2
+            "correct": "Depends on the compiler"
         },
         {
             "question": "Which of these is not a valid storage class in C?",
@@ -120,7 +120,7 @@
                 "global",
                 "static"
             ],
-            "correct": 2
+            "correct": "global"
         },
         {
             "question": "What is the purpose of the 'volatile' keyword in C?",
@@ -130,7 +130,7 @@
                 "To make a variable thread-safe",
                 "To declare a global variable"
             ],
-            "correct": 1
+            "correct": "To prevent optimization"
         },
         {
             "question": "Which header file is used for input/output operations in C?",
@@ -140,7 +140,7 @@
                 "input.h",
                 "io.h"
             ],
-            "correct": 0
+            "correct": "stdio.h"
         },
         {
             "question": "What is the output of printf('%d', sizeof('A'))?",
@@ -150,7 +150,7 @@
                 "4",
                 "8"
             ],
-            "correct": 2
+            "correct": "4"
         },
         {
             "question": "Which of these is not a valid way to declare a pointer in C?",
@@ -160,7 +160,7 @@
                 "int * p",
                 "pointer p"
             ],
-            "correct": 3
+            "correct": "pointer p"
         },
         {
             "question": "What is the purpose of the 'const' keyword in C?",
@@ -170,7 +170,7 @@
                 "To declare a global variable",
                 "To make a variable thread-safe"
             ],
-            "correct": 1
+            "correct": "To prevent modification"
         },
         {
             "question": "Which of these is not a valid way to allocate memory in C?",
@@ -180,7 +180,7 @@
                 "new",
                 "realloc()"
             ],
-            "correct": 2
+            "correct": "new"
         },
         {
             "question": "What is the purpose of the 'typedef' keyword in C?",
@@ -190,7 +190,7 @@
                 "To declare a function",
                 "To create a macro"
             ],
-            "correct": 0
+            "correct": "To define a new data type"
         },
         {
             "question": "Which of these is not a valid way to pass parameters in C?",
@@ -200,7 +200,7 @@
                 "Pass by name",
                 "Pass by pointer"
             ],
-            "correct": 2
+            "correct": "Pass by name"
         }
     ],
     "python": [
@@ -212,7 +212,7 @@
                 "<class 'double'>",
                 "<class 'decimal'>"
             ],
-            "correct": 1
+            "correct": "<class 'float'>"
         },
         {
             "question": "Which of these is not a valid way to create a list in Python?",
@@ -222,7 +222,7 @@
                 "list([1, 2, 3])",
                 "list(range(3))"
             ],
-            "correct": 1
+            "correct": "list(1, 2, 3)"
         },
         {
             "question": "What is the purpose of the 'pass' statement in Python?",
@@ -232,7 +232,7 @@
                 "To do nothing",
                 "To raise an exception"
             ],
-            "correct": 2
+            "correct": "To do nothing"
         },
         {
             "question": "Which of these is not a valid way to create a string in Python?",
@@ -242,7 +242,7 @@
                 "str(Hello)",
                 "'''Hello'''"
             ],
-            "correct": 2
+            "correct": "str(Hello)"
         },
         {
             "question": "What is the output of print(2 ** 3)?",
@@ -252,7 +252,7 @@
                 "9",
                 "Error"
             ],
-            "correct": 1
+            "correct": "8"
         },
         {
             "question": "Which of these is not a valid way to define a function in Python?",
@@ -262,7 +262,7 @@
                 "function def():",
                 "def function(x):"
             ],
-            "correct": 2
+            "correct": "function def():"
         },
         {
             "question": "What is the purpose of the 'yield' keyword in Python?",
@@ -272,7 +272,7 @@
                 "To raise an exception",
                 "To define a class"
             ],
-            "correct": 1
+            "correct": "To create a generator"
         },
         {
             "question": "Which of these is not a valid way to create a dictionary in Python?",
@@ -282,7 +282,7 @@
                 "dict['key'] = 'value'",
                 "dict((('key', 'value'),))"
             ],
-            "correct": 2
+            "correct": "dict['key'] = 'value'"
         },
         {
             "question": "What is the purpose of the 'with' statement in Python?",
@@ -292,7 +292,7 @@
                 "To manage resources",
                 "To define a context"
             ],
-            "correct": 2
+            "correct": "To manage resources"
         },
         {
             "question": "Which of these is not a valid way to import a module in Python?",
@@ -302,7 +302,7 @@
                 "import module as m",
                 "import module from *"
             ],
-            "correct": 3
+            "correct": "import module from *"
         }
     ]
 }
