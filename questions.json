@@ -1,0 +1,308 @@
+{
+    "java": [
+        {
+            "question": "What is the main method signature in Java?",
+            "options": [
+                "public static void main(String[] args)",
+                "public void main(String[] args)",
+                "public static int main(String[] args)",
+                "public static void main()"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which of these is not a primitive data type in Java?",
+            "options": [
+                "int",
+                "String",
+                "double",
+                "boolean"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the default value of an uninitialized int variable in Java?",
+            "options": [
+                "0",
+                "null",
+                "undefined",
+                "1"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which keyword is used to inherit a class in Java?",
+            "options": [
+                "extends",
+                "implements",
+                "inherits",
+                "super"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the size of a long variable in Java?",
+            "options": [
+                "4 bytes",
+                "8 bytes",
+                "2 bytes",
+                "1 byte"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which of these is not a valid access modifier in Java?",
+            "options": [
+                "public",
+                "private",
+                "friendly",
+                "protected"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the output of System.out.println(5 + 2 + '3')?",
+            "options": [
+                "10",
+                "7",
+                "53",
+                "Error"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which interface is used to make a class thread-safe in Java?",
+            "options": [
+                "Runnable",
+                "Thread",
+                "Serializable",
+                "Cloneable"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the purpose of the 'final' keyword in Java?",
+            "options": [
+                "To make a variable constant",
+                "To prevent inheritance",
+                "To prevent method overriding",
+                "All of the above"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Which of these is not a valid way to create a thread in Java?",
+            "options": [
+                "Extending Thread class",
+                "Implementing Runnable interface",
+                "Using new Thread()",
+                "Using Thread.create()"
+            ],
+            "correct": 3
+        }
+    ],
+    "c": [
+        {
+            "question": "What is the size of an int variable in C?",
+            "options": [
+                "2 bytes",
+                "4 bytes",
+                "Depends on the compiler",
+                "8 bytes"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which of these is not a valid storage class in C?",
+            "options": [
+                "auto",
+                "register",
+                "global",
+                "static"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of the 'volatile' keyword in C?",
+            "options": [
+                "To make a variable constant",
+                "To prevent optimization",
+                "To make a variable thread-safe",
+                "To declare a global variable"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which header file is used for input/output operations in C?",
+            "options": [
+                "stdio.h",
+                "iostream.h",
+                "input.h",
+                "io.h"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "What is the output of printf('%d', sizeof('A'))?",
+            "options": [
+                "1",
+                "2",
+                "4",
+                "8"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which of these is not a valid way to declare a pointer in C?",
+            "options": [
+                "int *p",
+                "int* p",
+                "int * p",
+                "pointer p"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "What is the purpose of the 'const' keyword in C?",
+            "options": [
+                "To make a variable constant",
+                "To prevent modification",
+                "To declare a global variable",
+                "To make a variable thread-safe"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which of these is not a valid way to allocate memory in C?",
+            "options": [
+                "malloc()",
+                "calloc()",
+                "new",
+                "realloc()"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of the 'typedef' keyword in C?",
+            "options": [
+                "To define a new data type",
+                "To create a new variable",
+                "To declare a function",
+                "To create a macro"
+            ],
+            "correct": 0
+        },
+        {
+            "question": "Which of these is not a valid way to pass parameters in C?",
+            "options": [
+                "Pass by value",
+                "Pass by reference",
+                "Pass by name",
+                "Pass by pointer"
+            ],
+            "correct": 2
+        }
+    ],
+    "python": [
+        {
+            "question": "What is the output of print(type(3.14))?",
+            "options": [
+                "<class 'int'>",
+                "<class 'float'>",
+                "<class 'double'>",
+                "<class 'decimal'>"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which of these is not a valid way to create a list in Python?",
+            "options": [
+                "[1, 2, 3]",
+                "list(1, 2, 3)",
+                "list([1, 2, 3])",
+                "list(range(3))"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the purpose of the 'pass' statement in Python?",
+            "options": [
+                "To skip the current iteration",
+                "To exit a loop",
+                "To do nothing",
+                "To raise an exception"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which of these is not a valid way to create a string in Python?",
+            "options": [
+                "'Hello'",
+                "\"Hello\"",
+                "str(Hello)",
+                "'''Hello'''"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the output of print(2 ** 3)?",
+            "options": [
+                "6",
+                "8",
+                "9",
+                "Error"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which of these is not a valid way to define a function in Python?",
+            "options": [
+                "def function():",
+                "function = lambda x: x",
+                "function def():",
+                "def function(x):"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of the 'yield' keyword in Python?",
+            "options": [
+                "To return a value",
+                "To create a generator",
+                "To raise an exception",
+                "To define a class"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which of these is not a valid way to create a dictionary in Python?",
+            "options": [
+                "{'key': 'value'}",
+                "dict(key='value')",
+                "dict['key'] = 'value'",
+                "dict((('key', 'value'),))"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of the 'with' statement in Python?",
+            "options": [
+                "To create a loop",
+                "To handle exceptions",
+                "To manage resources",
+                "To define a context"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Which of these is not a valid way to import a module in Python?",
+            "options": [
+                "import module",
+                "from module import *",
+                "import module as m",
+                "import module from *"
+            ],
+            "correct": 3
+        }
+    ]
+}
