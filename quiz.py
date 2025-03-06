@@ -90,8 +90,8 @@ def check_answers():
             results.append({
                 'question_id': question_id,
                 'question': question['question'],
-                'your_answer': question['options'][answer],
-                'correct_answer': question['options'][question['correct']],
+                'your_answer': answer,
+                'correct_answer': question['correct'],
                 'is_correct': is_correct
             })
         
